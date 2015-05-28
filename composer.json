@@ -1,0 +1,31 @@
+{
+    "name": "symbio/orangegate4-doctrine-orm-admin-bundle",
+    "type": "symfony-bundle",
+    "description": "SYMBIO OrangeGateDoctrineORMAdminBundle",
+    "keywords": ["Admin Generator", "admin", "orangegate", "bootstrap"],
+    "homepage": "http://www.symbiodigital.com/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "SYMBIO Developers",
+            "email": "dev@symbiodigital.com",
+            "homepage": "http://www.symbiodigital.com"
+        }
+    ],
+    "require": {
+        "symbio/orangegate4-admin-bundle": "~1.0@dev",
+        "sonata/doctrine-orm-admin-bundle": "~2.4@dev"
+    },
+    "require-dev": {
+    },
+    "suggest": {
+    },
+    "autoload": {
+        "psr-4": { "Symbio\\OrangeGate\\DoctrineORMAdminBundle\\": "" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
